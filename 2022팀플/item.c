@@ -86,12 +86,12 @@ int item_get(int* x, int* y, int difficulty, int world_item[][30][2], int startc
 
     if (world_item[(*x) - 4 - MAPLOCATIONX][(*y) - 2 - MAPLOCATIONY][0] == 2)
     {
-        gotoxy(0, i); //개발
-        printf("itemitemitem"); //용 표
+        //gotoxy(0, i); //개발
+        //printf("itemitemitem"); //용 표
         //i++; //시기
 
         itemcode = (world_item[(*x) - 4 - MAPLOCATIONX][(*y) - 2 - MAPLOCATIONY][1] % ITEMCOUNT + startcode) % ITEMCOUNT;
-        //itemcode = 6; //개발용
+        //itemcode = 0; //개발용
         world_item[(*x) - 4 - MAPLOCATIONX][(*y) - 2 - MAPLOCATIONY][0] = 0;
 
         if (itemcode == 0)

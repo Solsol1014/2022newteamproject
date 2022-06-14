@@ -18,7 +18,7 @@ int main(void)
     j = 0;
     jfrequ = 1000;
     extreme = 0;
-    clearnum = 1;
+    clearnum = 0;
     //custommap = 4;
     //customitem = 1;
     //customwall = 1;
